@@ -682,4 +682,25 @@ body {
   text-align: center;
   margin-top: 10vh;
   color: #bebaba;
+}
+
+@media (max-width: 1200px) {
+  .hero {
+    width: calc(var(--index) * 49);
+  }
+}
+@media (max-width: 992px) {
+  .hero {
+    width: calc(var(--index) * 61);
+  }
+}
+@media (max-width: 768px) {
+  .hero {
+    top: 34vh;
+  }
+}
+@media (max-width: 576px) {
+  .hero {
+    top: 51vh;
+  }
 }/*# sourceMappingURL=style.css.map */
