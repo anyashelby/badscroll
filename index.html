@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	
+	<title>Scroll Training</title>
+	
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="content">
+			<header class="hero-section">
+				<img data-speed=".6" class="hero" src="img/hero.png" alt="">
+		
+				<div class="container">
+					<div data-speed=".75" class="main-header">
+						<h1 class="main-title">hueviy scroll</h1>
+					</div>
+				</div>
+			</header>
+		
+			<section class="portfolio">
+				<div class="container">
+					<main class="gallery">
+						<div data-speed=".9" class="gallery__left">
+							<img class="gallery__item" src="img/work/first.jpeg" alt="">
+							<img class="gallery__item" src="img/work/second.jpeg" alt="">
+		
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Pizdatiy floating scroll with ahueniy parallax effect</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+							</div>
+			
+							<img src="img/work/sixth.jpeg" alt="" class="gallery__item">
+						</div>
+		
+						
+		
+						<div data-speed="1.1" class="gallery__right">
+							<div class="text-block gallery__item">
+								<h2 class="text-block__h">Pizdatiy floating scroll with ahueniy parallax effect</h2>
+								<p class="text-block__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor amount scrolling.</p>
+							</div>
+		
+							<img class="gallery__item" src="img/work/third.jpeg" alt="">
+							<img class="gallery__item" src="img/work/fourth.jpeg" alt="">
+							<img class="gallery__item" src="img/work/fith.jpeg" alt="">
+						</div>
+					</main>
+				</div>
+			</section>
+
+			<footer data-speed="1" class="footer">
+				<div class="container">
+					<div class="footer__wrapper">
+						<div class="footer__social">
+							<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px">
+								<path d="M 12 5 C 13.109375 5 14.011719 5.902344 14.011719 7.011719 C 14.011719 8.117188 13.109375 9.019531 12 9.019531 C 10.890625 9.019531 9.988281 8.117188 9.988281 7.011719 C 9.988281 5.902344 10.890625 5 12 5 Z M 12 12.007813 C 14.757813 12.007813 16.996094 9.769531 16.996094 7.011719 C 16.996094 4.253906 14.757813 2.011719 12 2.011719 C 9.242188 2.011719 7 4.253906 7 7.011719 C 7 9.765625 9.242188 12.007813 12 12.007813 Z M 13.964844 15.828125 C 14.953125 15.605469 15.90625 15.214844 16.785156 14.660156 C 17.449219 14.242188 17.648438 13.363281 17.230469 12.699219 C 16.8125 12.035156 15.933594 11.832031 15.269531 12.253906 C 13.277344 13.503906 10.71875 13.503906 8.730469 12.253906 C 8.0625 11.832031 7.183594 12.035156 6.765625 12.699219 C 6.347656 13.363281 6.546875 14.242188 7.214844 14.660156 C 8.089844 15.214844 9.046875 15.605469 10.035156 15.828125 L 7.316406 18.546875 C 6.761719 19.101563 6.761719 20.003906 7.320313 20.558594 C 7.597656 20.835938 7.960938 20.976563 8.324219 20.976563 C 8.6875 20.976563 9.054688 20.835938 9.332031 20.558594 L 12 17.890625 L 14.671875 20.558594 C 15.226563 21.113281 16.125 21.113281 16.683594 20.558594 C 17.238281 20.003906 17.238281 19.101563 16.683594 18.546875 Z"/>
+							</svg>
+			
+							<a href="https://github.com/anyashelby" target="_blank" class="footer__link">odnoklassniki</a>
+						</div>
+			
+						<div class="footer__social">
+							<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="48px" height="48px">
+								<path d="M45.763,35.202c-1.797-3.234-6.426-7.12-8.337-8.811c-0.523-0.463-0.579-1.264-0.103-1.776 c3.647-3.919,6.564-8.422,7.568-11.143C45.334,12.27,44.417,11,43.125,11l-3.753,0c-1.237,0-1.961,0.444-2.306,1.151 c-3.031,6.211-5.631,8.899-7.451,10.47c-1.019,0.88-2.608,0.151-2.608-1.188c0-2.58,0-5.915,0-8.28 c0-1.147-0.938-2.075-2.095-2.075L18.056,11c-0.863,0-1.356,0.977-0.838,1.662l1.132,1.625c0.426,0.563,0.656,1.248,0.656,1.951 L19,23.556c0,1.273-1.543,1.895-2.459,1.003c-3.099-3.018-5.788-9.181-6.756-12.128C9.505,11.578,8.706,11.002,7.8,11l-3.697-0.009 c-1.387,0-2.401,1.315-2.024,2.639c3.378,11.857,10.309,23.137,22.661,24.36c1.217,0.12,2.267-0.86,2.267-2.073l0-3.846 c0-1.103,0.865-2.051,1.977-2.079c0.039-0.001,0.078-0.001,0.117-0.001c3.267,0,6.926,4.755,8.206,6.979 c0.368,0.64,1.056,1.03,1.8,1.03l4.973,0C45.531,38,46.462,36.461,45.763,35.202z"/>
+							</svg>
+							<a href="#" target="_blank" class="footer__link">vkontakte</a>
+						</div>
+			
+						<div class="footer__social">
+							<?xml version="1.0"?>
+							<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px">    
+								<path d="M8.4,9.464c4.05-1.286,4.693-5.014,4.179-8.357c0,0,0-0.193,0.129-0.129C16.629,2.907,21,6.957,21,13.193 C21,17.821,17.336,22,12,22c-5.786,0-9-4.05-9-8.871c0-2.893,1.929-5.786,4.179-7.071c0,0,0.193,0,0.193,0.129 c0,0.643,0.257,2.25,0.964,3.214L8.4,9.464z"/>
+							</svg>
+							<a href="#" target="_blank" class="footer__link">tinder</a>
+						</div>
+						
+					</div>
+					<div class="footer__text">&#174;Andrey Schneider</div>
+				</div>
+			</footer>
+		</div>
+
+	</div>
+
+	
+
+	
+</body>
+</html>
